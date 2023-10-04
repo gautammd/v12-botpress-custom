@@ -15,5 +15,5 @@ RUN yarn && yarn build
 EXPOSE 3000
 
 # Set the start command
-CMD ["yarn start"]
+CMD ["./bp", "&" ,"./duckling"]
 
