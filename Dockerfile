@@ -15,5 +15,6 @@ RUN yarn && yarn build
 EXPOSE 3000
 
 # Set the start command
-CMD ["./bp", "&" ,"./duckling"]
+RUN yarn upgrade caniuse-lite browserslist
+CMD ["yarn start"]
 
